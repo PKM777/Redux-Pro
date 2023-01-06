@@ -3,11 +3,14 @@ import { useSelector , useDispatch } from 'react-redux'
 import { increment, incrementByValue } from '../features/counterSlice'
 import { allObjs } from '../features/objSlice'
 
+
 const Counter = () => {
 
     const [bar, setbar] = useState(0)
-      
+    
     const count = useSelector((state)=> state.counter.count)
+    
+ 
     const dispatch = useDispatch()
     const posts = useSelector(allObjs)
     const addValue = Number(bar) | 0
@@ -16,7 +19,7 @@ const Counter = () => {
     }
 
     const renderChars = posts.map((items)=>(
-      <div key={items.exp}>
+      <div key={items.id}>
         <h1>{items.name}</h1>
         <h2>{items.job}</h2>
         <h3>{items.exp}</h3>
