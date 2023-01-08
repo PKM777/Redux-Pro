@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 import { useSelector , useDispatch } from 'react-redux'
 import { increment, incrementByValue } from '../features/counterSlice'
@@ -43,4 +44,4 @@ const Counter = () => {
   )
 }
 
-export default Counter
+

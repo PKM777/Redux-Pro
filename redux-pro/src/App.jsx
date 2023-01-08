@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 import Counter from './comps/Counter'
-import Form from './comps/Form'
+
 
 
 function App() {
