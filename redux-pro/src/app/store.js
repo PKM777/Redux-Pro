@@ -8,4 +8,4 @@ export const store = configureStore({
         counter: counterReducer,
         objs : objReducer
     }
-})
+

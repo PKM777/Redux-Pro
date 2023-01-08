@@ -50,4 +50,4 @@ export const allObjs = (state)=> state.objs
 
 export const { submitForm } = objSlice.actions
 
-export default objSlice.reducer
+
